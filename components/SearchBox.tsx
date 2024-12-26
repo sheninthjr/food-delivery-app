@@ -1,5 +1,5 @@
-import SearchIcon from "@/assets/icons/SearchIcon";
-import { Text, TextInput, View } from "react-native";
+import SearchIcon from '@/assets/icons/SearchIcon';
+import { Text, TextInput, View } from 'react-native';
 
 export function SearchBox() {
   return (

@@ -1,13 +1,13 @@
 export interface CategoriesTypes {
-  id: number;
+  id: string;
   name: string;
   image: string;
   price: number;
 }
 
 export interface SuggestedRestaurantsTypes {
-    id: number,
-    name: string,
-    image:string,
-    ratings: number
+  id: number;
+  name: string;
+  image: string;
+  ratings: number;
 }

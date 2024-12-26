@@ -1,11 +1,11 @@
-import CartIcon from "@/assets/icons/CartIcon";
-import ExploreIcon from "@/assets/icons/ExploreIcon";
-import RightArrowIcon from "@/assets/icons/RightArrowIcon";
-import { CategoriesCard } from "@/components/CategoriesCard";
-import { Restaurant } from "@/components/Restaurant";
-import { SearchBox } from "@/components/SearchBox";
-import { Link } from "expo-router";
-import { SafeAreaView, ScrollView, Text, View } from "react-native";
+import CartIcon from '@/assets/icons/CartIcon';
+import ExploreIcon from '@/assets/icons/ExploreIcon';
+import RightArrowIcon from '@/assets/icons/RightArrowIcon';
+import { CategoriesCard } from '@/components/CategoriesCard';
+import { Restaurant } from '@/components/Restaurant';
+import { SearchBox } from '@/components/SearchBox';
+import { Link } from 'expo-router';
+import { SafeAreaView, ScrollView, Text, View } from 'react-native';
 
 export default function Home() {
   return (
@@ -51,7 +51,7 @@ export default function Home() {
                 All Categories
               </Text>
             </View>
-            <Link href={"/search"}>
+            <Link href={'/search'}>
               <View className="flex flex-row items-center">
                 <Text className="text-xl font-semibold text-neutral-700">
                   See All
@@ -70,7 +70,7 @@ export default function Home() {
               Open Restaurants
             </Text>
           </View>
-          <Link href={"/search"}>
+          <Link href={'/search'}>
             <View className="flex flex-row items-center">
               <Text className="text-xl font-semibold text-neutral-700">
                 See All

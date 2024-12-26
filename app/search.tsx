@@ -1,11 +1,11 @@
-import CartIcon from "@/assets/icons/CartIcon";
-import LeftArrowIcon from "@/assets/icons/LeftArrowIcon";
-import StarIcon from "@/assets/icons/StarIcon";
-import { CategoriesCard } from "@/components/CategoriesCard";
-import { SearchBox } from "@/components/SearchBox";
-import { SuggestedRestaurants } from "@/data";
-import { useRouter } from "expo-router";
-import { useRef } from "react";
+import CartIcon from '@/assets/icons/CartIcon';
+import LeftArrowIcon from '@/assets/icons/LeftArrowIcon';
+import StarIcon from '@/assets/icons/StarIcon';
+import { CategoriesCard } from '@/components/CategoriesCard';
+import { SearchBox } from '@/components/SearchBox';
+import { SuggestedRestaurants } from '@/data';
+import { useRouter } from 'expo-router';
+import { useRef } from 'react';
 import {
   Animated,
   Image,
@@ -14,13 +14,13 @@ import {
   ScrollView,
   Text,
   View,
-} from "react-native";
+} from 'react-native';
 
 export default function Search() {
   const router = useRouter();
   const animated = useRef(new Animated.Value(1)).current;
   const onPressHandler = () => {
-    router.replace("/");
+    router.replace('/');
   };
   const fadeIn = () => {
     Animated.timing(animated, {
@@ -74,7 +74,7 @@ export default function Search() {
               }}
               showsHorizontalScrollIndicator={false}
             >
-              {["Burger", "Sandwich", "Pizza", "HotDog"].map((value, index) => (
+              {['Burger', 'Sandwich', 'Pizza', 'HotDog'].map((value, index) => (
                 <View
                   key={index}
                   className="px-3 py-2 border border-gray-500"
@@ -104,12 +104,12 @@ export default function Search() {
                 style={{
                   elevation: 3,
                   borderRadius: 14,
-                  backgroundColor: "white",
+                  backgroundColor: 'white',
                   shadowOffset: {
                     height: 4,
                     width: 0,
                   },
-                  shadowColor: "gray",
+                  shadowColor: 'gray',
                 }}
               >
                 <View>

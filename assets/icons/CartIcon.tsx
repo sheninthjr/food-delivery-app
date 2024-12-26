@@ -1,7 +1,7 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
 
-const CartIcon = (props:any) => (
+const CartIcon = (props: any) => (
   <Svg
     width={25}
     height={25}

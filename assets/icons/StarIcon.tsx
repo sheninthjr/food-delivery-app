@@ -1,7 +1,7 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
 
-const StarIcon = (props:any) => (
+const StarIcon = (props: any) => (
   <Svg
     width={22}
     height={22}

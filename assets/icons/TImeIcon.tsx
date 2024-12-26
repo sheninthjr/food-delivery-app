@@ -1,6 +1,6 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-const TimeIcon = (props:any) => (
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+const TimeIcon = (props: any) => (
   <Svg
     width={24}
     height={24}
