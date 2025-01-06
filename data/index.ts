@@ -34,7 +34,7 @@ export const data: CategoriesTypes[] = [
   },
   {
     id: '2',
-    name: 'Bugger',
+    name: 'Burger',
     image:
       'https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=',
     price: 50,
@@ -70,7 +70,7 @@ export const ItemData = [
   },
   {
     id: '2',
-    name: 'Bugger',
+    name: 'Burger',
     image:
       'https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=',
     price: 50,
